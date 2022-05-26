@@ -1,0 +1,1 @@
+sudo docker-compose exec ffserver ffmpeg -re -i ./data/video.mp4 http://localhost:8090/feed.ffm
